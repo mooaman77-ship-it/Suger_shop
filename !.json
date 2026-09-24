@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+        <title>سكر للحلويات</title>
+            <style>
+                    body { font-family: 'Cairo', sans-serif; text-align: center; margin: 0; padding: 20px; background-color: #f4e8e1; }
+                            header { background-color: #d4a373; color: white; padding: 20px; border-radius: 10px; }
+                                    .container { display: flex; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+                                            .card { background: white; border-radius: 15px; width: 250px; margin: 15px; padding: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+                                                    .card img { width: 100%; border-radius: 10px; }
+                                                            .card h3 { color: #8e583d; }
+                                                                    .price { color: #d4a373; font-weight: bold; font-size: 18px; margin-bottom: 15px; }
+                                                                            .whatsapp-btn { background-color: #25d366; color: white; padding: 10px 15px; border-radius: 10px; text-decoration: none; font-weight: bold; display: inline-block; }
+                                                                                    .whatsapp-btn:hover { background-color: #128c7e; }
+                                                                                        </style>
+                                                                                        </head>
+                                                                                        <body>
+                                                                                            <header>
+                                                                                                    <h1>مرحباً بكم في سكر للحلويات</h1>
+                                                                                                        </header>
+                                                                                                            <div class="container">
+                                                                                                                    <div class="card">
+                                                                                                                                <img src="your-sweets-image.jpg" alt="اسم المنتج">
+                                                                                                                                            <h3>اسم الحلويات</h3>
+                                                                                                                                                        <p>وصف مختصر للمنتج والمكونات.</p>
+                                                                                                                                                                    <div class="price">٥٠ جنية</div>
+                                                                                                                                                                                <a href="https://wa.me/201234567890?text=أريد طلب اسم المنتج" class="whatsapp-btn" target="_blank">اطلب عبر واتساب</a>
+                                                                                                                                                                                        </div>
+                                                                                                                                                                                                <!-- يمكنك تكرار هذا الجزء لإضافة منتجات أخرى -->
+                                                                                                                                                                                                    </div>
+                                                                                                                                                                                                    </body>
+                                                                                                                                                                                                    </html>
